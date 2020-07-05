@@ -44,7 +44,7 @@ public class SharedPrefrencesdata {
         editor.putInt(KEY_CURRENT_PATIENTS_Number,current);
         editor.commit();
     }
-    public int getCurren(){
+    public Integer getCurren(){
         return pref.getInt(KEY_CURRENT_PATIENTS_Number,0);
     }
 

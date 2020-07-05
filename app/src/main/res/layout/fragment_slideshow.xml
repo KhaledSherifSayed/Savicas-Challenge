@@ -22,7 +22,6 @@
         android:id="@+id/reset_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:passwordToggleEnabled="true"
         app:layout_constraintTop_toBottomOf="@+id/text_slideshow">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -50,8 +49,6 @@
             android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:hint="CurrentNumbers"
-            android:imeOptions="actionDone"
-            android:inputType="textPassword"
             android:textSize="18dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,7 +56,6 @@
         android:id="@+id/max_numbers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:passwordToggleEnabled="true"
         app:layout_constraintTop_toBottomOf="@+id/current_Numbers">
 
         <com.google.android.material.textfield.TextInputEditText
